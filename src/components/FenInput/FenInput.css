@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 32px;
+}
+
+.input {
+    height: 40px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.error {
+    color: red
+}
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 384px;
+    padding: 11px;
+    border: 1px solid black;
+}
